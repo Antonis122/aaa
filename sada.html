@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz 3</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background: #eee;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #4CAF50;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #4CAF50;
+    }
+    footer {
+      background: #ddd;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>How to setup Git and link GitHub account</h1>
+  </header>
+  <nav>
+
+  </nav>
+  <main>
+  
+    <section id="Install">
+      <h2>How to install Git and GitHub</h2>
+      <ol>
+      <li> Go to their website <code>https://git-scm.com/install/ </code>
+      <li>Download and Install Git based on your operating system.
+      <li>Create a new folder, right click inside the new folder and click open Git Bash here. In Windows 11, right click inside the folder then click "show more options".
+      <li> Git is successfully installed</li>
+             </section>
+    <section id="Checking">
+      <h2>How to check if Git is installed properly in VS code</h2>
+      <ol>
+      <li>Click on the directory and type cmd. It should open a terminal.
+      <li>Inside the terminal, type <code> code .</code> 
+      <li> It should open VStudio, hold Ctrl + ` to open the terminal.
+      <li> Click the arrow down in your terminal and click Git bash to open the git terminal.
+      <li> Use the terminal to link your Github</li>
+
+      </ol>
+    </section>
+    <section id="Link">
+      <h2>How to link VS code to GitHub</h2>
+      <ol>
+       <li>Use Git inside VS code and type the following </li>
+       <ul> 
+      <li> <code> git config --global user.name "Your Name"
+      <li> git config --global user.email "your email address used in your GitHub account"
+      <li> git config --global push.default matching
+      <li> git config --global alias.co checkout
+      <li> git init</code></ul>
+      
+      <li>Go to github then create a new repository and type your desired name. Make sure it is set to public.
+      <li> Copy the text seen on your page and paste inside VS code git, Refer to command below :</li>
+      <ul> <li> <code>git init
+      <li> git add README.md
+      <li> git commit -m "first commit"
+      <li> git branch -M main
+      <li> git remote add origin (your own link)
+      <li> git push -u origin main </code>
+      </ul> <li> Then click the profile in the bottom left
+      <li> Login your github account
+      <li> Then click automatically save changes and Turn on Cloud Changes then you're done!
+      </ol>
+ <section id="Importing"><h2>How to import GitHub repository from
+      other pc </h2><ol>
+      <li> Create new folder, open git then input the following</li>
+      <ul><li><code> git clone "link of your repository"</code></ul>
+      <li> It should import the github files inside the desired folder then you're done!</li>
+      </section>
+      
+      <section id="Sync"><h2>How to sync/upload saved file to GitHub?</h2><ol>
+      <li> Install Conventional Commits from extensions
+      <li>After editing your code, go to source control from left side then hover over the changes
+      <li>Click the + then click the little circle above commit 
+      <li>After that, click feat and choose from the options on what you want the description to be.
+      <li>Lastly, click commit to sync the file to your github repository. 
+      <li> Go to your github repository to check if it updated and then you're done!
+
+      
+  </main>
+<footer>
+</footer>
+</body>
+</html>
